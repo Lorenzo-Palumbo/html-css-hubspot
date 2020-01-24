@@ -10,8 +10,13 @@
     clear: both;
 }
 
+body{
+    font-family: Roboto
+}
+
 .lightblue{
-    background-color: lightblue
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2
 }
 
 .container{
@@ -30,8 +35,50 @@
     float: left;
 }
 
+.left a{
+    color: black;
+    text-decoration: none;
+    padding-left: 5px
+}
+
+.spazio{
+    padding-left: 10px
+}
+
+.fa-caret-down{
+    border-right: 2px solid lightgray;
+    padding-right: 10px;
+    color: cadetblue;
+    cursor: pointer;
+}
+
 .right{
     float: right;
+}
+
+.fa-search{
+    color: lightseagreen;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.login{
+    border: 1px solid #FF7A59;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #FF7A59;
+    background-color: white;
+    cursor: pointer;
+}
+
+.free{
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: white;
+    background-color: #FF7A59;
+    border-style: none;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 .white{
@@ -60,11 +107,24 @@ ul li{
 }
 
 ul li a{
-    padding-left: 20px
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900
+    font-size: 18px
+}
+
+.nobord{
+    border: none;
+    padding-left:
 }
 
 .blue{
-    background-color: blue
+    background-color:#33475b
+}
+
+.row-terza p{
+    color: white
 }
 
 .row-terza{
@@ -305,4 +365,12 @@ small{
 
 .blocco span{
 
+}
+
+.row-decima{
+    padding-bottom: 150px
+}
+
+.sec{
+    border-bottom: none
 }
