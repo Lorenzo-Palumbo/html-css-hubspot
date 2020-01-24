@@ -44,7 +44,7 @@
     line-height: 53px
 }
 
-img{
+.row-seconda img{
     float: left;
     top: 50%;
     transform: translate(10px, 10px);
@@ -73,7 +73,7 @@ ul li a{
     line-height: 53px;
 }
 
-p{
+.row-terza p{
     float: left;
 }
 
@@ -115,7 +115,8 @@ small{
 }
 
 .gray{
-    background-color: gray
+    background-color: gray;
+    padding-bottom: 10px
 }
 
 .row-quinta{
@@ -123,10 +124,9 @@ small{
 
 }
 
-img.cubo{
+.row-quinta img{
     width: 260px;
     left: 50%;
-    transform: translate(180%);
     padding-top: 100px
 }
 
@@ -149,9 +149,10 @@ img.cubo{
     width: 20%;
     text-align: center;
     float: left;
+    background-color: yellow
 }
 
-img.libro{
+.elemleft img{
     width: 150px
 }
 
@@ -162,10 +163,12 @@ img.libro{
 
 .elemright{
     float:left;
-    width: 80%
+    width: 80%;
+    background-color: green
 }
 
 .elemright h1{
+
 }
 
 .elemright p{
@@ -173,4 +176,133 @@ img.libro{
 }
 
 .elemright h2{
+
+}
+
+.lineas{
+    float: left;
+}
+
+.linead{
+    border-bottom: 1px solid black;
+    float: left;
+    width: 450px;
+    padding-bottom: 15px;
+}
+
+.ok{
+    width: 18px;
+    float: left;
+}
+
+.spunta h3{
+    float: left;
+}
+
+.spunte{
+    height: 50px;
+    background-color: purple;
+    margin-top: 70px
+}
+
+.spunta{
+    float:left;
+}
+
+.grigio{
+    background-color: gray
+}
+
+.bianco2{
+    background-color: white;
+
+}
+
+.hub{
+    width: 150px;
+    height: 157px
+}
+
+.row-sesta, .row-settima, .row-quinta{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row-quinta{
+    background-color: gray
+}
+
+.row-settima{
+    margin-top: 20px;
+    margin-bottom: 140px;
+    background-color: gray;
+}
+
+.cards{
+    width: 30%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    padding: 28px
+}
+
+.cards:last-child{
+    float: right;
+}
+
+.cards:nth-child(2){
+    margin-left: 48px
+}
+
+.cards > p{
+        border-bottom: 1px solid gray
+}
+
+#feat .featbot{
+    width: 18px;
+    float: left;
+}
+
+#feat{
+    width: 280px;
+    height: 50px
+}
+
+.cards #feat p{
+    float: left;
+}
+
+.sfumato{
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.row-ottava{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.row-nona{
+}
+
+.blocco{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px
+}
+
+.blocco:nth-last-of-type(1n+2){
+    border-right: 1px solid white
+}
+
+.blocco h1::after{
+    content: "+";
+}
+
+.blocco span{
+
 }
