@@ -217,11 +217,18 @@ small{
 
 .testo{
     float: left;
+    color: #33475b
 }
 
 .row-quinta h1 {
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 20px;
+}
+
+.row-quinta h2{
+    font-size: 17px;
+    font-weight: 100;
+    padding-bottom: 45px
 }
 
 .bianco{
@@ -230,38 +237,55 @@ small{
     padding: 32px
 }
 
+.row-sesta{
+    padding-bottom: 40px;
+}
+
 .elemleft{
-    width: 20%;
+    width: 30%;
     text-align: center;
     float: left;
-    background-color: white
+    background-color: white;
+    padding-left: 100px
 }
 
 .elemleft img{
-    width: 150px
+    width: 150px;
+    padding-top: 40px
 }
 
 .crm{
     margin-top: 70px;
-    padding: 15px
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: #FF7A59;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
 }
 
 .elemright{
     float:left;
-    width: 80%;
-    background-color: white
+    width: 60%;
+    background-color: white;
+    color: #33475b;
+    padding-left: 50px
 }
 
 .elemright h1{
-
+    font-size: 22px;
+    padding-top: 40px;
+    padding-bottom: 20px
 }
 
 .elemright p{
-
+    padding-bottom: 30px
 }
 
-.elemright h2{
-
+.elemright .lineas h2{
+    font-size: 13px
 }
 
 .lineas{
@@ -269,37 +293,38 @@ small{
 }
 
 .linead{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     float: left;
-    width: 450px;
-    padding-bottom: 15px;
+    width: 520px;
+    padding-bottom: 6px;
+    margin-left: 10px
 }
 
 .ok{
     width: 18px;
     float: left;
+    margin-left: 20px
 }
 
-.spunta h3{
-    float: left;
+.zerom{
+    margin-left: 0
 }
 
 .spunte{
     height: 50px;
-    margin-top: 70px
+    margin-top: 36px
 }
 
 .spunta{
     float:left;
 }
 
-.grigio{
-    background-color: gray
-}
-
-.bianco2{
-    background-color: white;
-
+.spunta h3{
+    float: left;
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-left: 10px
 }
 
 .hub{
@@ -314,29 +339,42 @@ small{
 }
 
 .row-settima{
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 140px;
-    background-color: gray;
 }
 
 .cards{
-    width: 30%;
+    width: 31%;
     float: left;
     text-align: center;
     background-color: white;
-    padding: 28px
+    padding: 57px;
+    border-radius: 5px;
+    color: #33475b
 }
 
 .cards:last-child{
     float: right;
+    margin-left: 10px
 }
 
 .cards:nth-child(2){
-    margin-left: 48px
+    margin-left: 43px
+}
+
+.cards h1{
+    font-size: 22px;
+    padding: 20px 0
 }
 
 .cards > p{
-        border-bottom: 1px solid gray
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 20px
+}
+
+.cards > h2{
+    padding: 20px 0;
+    font-size: 13px
 }
 
 #feat .featbot{
@@ -346,21 +384,46 @@ small{
 
 #feat{
     width: 280px;
-    height: 50px
+    height: 27px
 }
 
 .cards #feat p{
     float: left;
+    font-size: 13px;
+    padding-left: 10px
+}
+
+.started{
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: #FF7A59;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
 }
 
 .sfumato{
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    color: white
 }
 
 .row-ottava{
     width: 60%;
     text-align: center;
     margin: 0 auto;
+}
+
+.row-ottava > h1{
+    padding-top: 10px;
+    padding-bottom: 25px
+}
+
+.row-ottava > p{
+    padding-bottom: 100px;
+    line-height: 1.5
 }
 
 .row-nona{
@@ -381,6 +444,12 @@ small{
 
 .blocco h1::after{
     content: "+";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blocco h1{
+    font-size: 40px;
 }
 
 .blocco span{
