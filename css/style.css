@@ -463,3 +463,129 @@ small{
 .sec{
     border-bottom: none
 }
+
+.row-undicesima{
+    padding-top: 115px
+}
+
+.row-undicesima .elemleft{
+    text-align: left;
+}
+
+.row-undicesima .elemright{
+    padding-left: 148px;
+}
+
+.elemleft h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #33475b;
+}
+
+.elemleft p{
+    color: #33475b;
+    font-size: 1.2em;
+    letter-spacing: 0.02em;
+    padding-top: 10px;
+    line-height: 1.5
+}
+
+.up{
+}
+
+.up img{
+    width: 140px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.up img:nth-last-child(1n+3){
+    padding-bottom: 38px
+}
+
+.down img{
+    width: 140px;
+    padding-left: 30px;
+}
+
+.down img:nth-child(2n+2){
+    padding-bottom: 12px
+}
+
+.row-dodicesima{
+    padding-top: 220px;
+    padding-bottom: 140px;
+    color: #33475b;
+}
+
+.row-dodicesima .minicont{
+    width: 39%;
+    float: left;
+}
+
+.row-dodicesima .minicont p{
+    padding: 25px 0
+}
+
+.boy{
+    width: 295px;
+    float: right;
+}
+
+.fondo{
+    float: left;
+    width: 25%;
+    padding-top: 80px
+}
+
+.fondo li{
+float: none;
+padding-bottom: 20px
+}
+
+.fondo li b{
+    color: white
+}
+
+.support{
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.fab{
+    width: 20%
+}
+
+.fondo ul li a{
+    color: #f5f8fa;
+    padding-left: 0;
+    font-weight: normal;
+}
+
+.languages{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 40px
+}
+
+.languages a{
+    color: #f5f8fa;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.penultimo {
+    float: left;
+}
+
+.ultimo a{
+    float: right;
+    color: #f5f8fa;
+    margin-left: 30px;
+    text-decoration: none;
+    margin-bottom: 100px
+}
